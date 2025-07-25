@@ -6,7 +6,7 @@ import '../../App.css';
 function Navbar() {
   return (
     <>
-      <div className="sticky top-0 z-[50] bg-[#121314] w-[100%] py-[32px] flex items-center justify-between bg-opacity-[.97] max-[450px]:px-[15px] max-[450px]:py-[20px] max-[640px]:px-[50px] max-[640px]:py-[20px] max-[768px]:px-[100px] max-[768px]:py-[20px]">
+      <div className="sticky top-0 z-[50] bg-[#121314] w-[100%] px-[180px] py-[32px] flex items-center justify-between bg-opacity-[.97] max-[450px]:px-[15px] max-[450px]:py-[20px] max-[640px]:px-[50px] max-[640px]:py-[20px] max-[768px]:px-[100px] max-[768px]:py-[20px]">
         <div className="flex items-center gap-[12px] max-[450px]:gap-[5px] max-[640px]:gap-[5px]">
           <img src={Smiley} alt="Logo" />
           <h4 className="text-[22px] font-semibold text-[#fff] max-[450px]:text-[16px]">Asadullah</h4>
