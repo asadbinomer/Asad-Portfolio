@@ -39,7 +39,8 @@ function Section2() {
 
   return (
     <>
-      <div className="px-[180px] py-[70px] flex items-center gap-[100px] justify-between max-[450px]:flex-col max-[450px]:px-[15px] max-[450px]:py-[20px] max-[450px]:gap-[50px] max-[640px]:items-start max-[640px]:px-[50px] max-[640px]:py-[20px] max-[640px]:gap-[50px] max-[640px]:flex-col max-[768px]:px-[100px] max-[768px]:py-[20px]">
+    <div className="w-full flex items-center justify-center">
+      <div className="w-full max-w-[1100px] py-[70px] flex items-center gap-[100px] justify-between max-[450px]:flex-col max-[450px]:px-[15px] max-[450px]:py-[20px] max-[450px]:gap-[50px] max-[640px]:items-start max-[640px]:px-[50px] max-[640px]:py-[20px] max-[640px]:gap-[50px] max-[640px]:flex-col max-[768px]:px-[100px] max-[768px]:py-[20px]">
         <div className="flex flex-col items-start gap-[45px] max-[450px]:gap-[30px]">
           <h1 className="text-[48px] font-semibold leading-[60px] max-[450px]:text-[30px] max-[450px]:leading-[40px]">
             What my clients <br /> say about my work!
@@ -92,6 +93,7 @@ function Section2() {
 
         <img src={MyImage2} alt="" className="w-[400px] max-[640px]:w-[420px]" />
       </div>
+    </div>
     </>
   );
 }
