@@ -24,7 +24,7 @@ function Section6() {
 
   return (
     <div className="flex flex-col gap-[60px] max-[450px]:px-[20px] max-[640px]:px-[50px] mb-[100px] items-center">
-      <div className="w-full flex items-center justify-between max-w-[1100px] max-[640px]:px-[50px] max-[450px]:px-[20px]">
+      <div className="w-full flex items-center justify-between max-w-[1200px] max-[640px]:px-[50px] max-[450px]:px-[20px]">
         <h1 className="text-[48px] font-semibold max-[450px]:text-[25px] max-[640px]:text-[35px]">
           Latest Dribbble Shots
         </h1>
@@ -44,7 +44,7 @@ function Section6() {
         </div>
       </div>
 
-      <div className="overflow-hidden w-full max-w-[1100px] max-[450px]:ml-[0px]">
+      <div className="overflow-hidden w-full max-w-[1200px] max-[450px]:ml-[0px]">
         <div
           className="flex transition-transform duration-500 ease-in-out gap-[24px]"
           style={{

@@ -7,7 +7,7 @@ function Section5() {
   return (
     <>
       <div className="w-full flex items-center justify-center">
-        <div className="w-full max-w-[1100px] py-[100px] flex flex-col items-center gap-[60px] max-[450px]:flex-col max-[450px]:px-[15px] max-[450px]:py-[20px] max-[450px]:gap-[40px] max-[640px]:px-[50px] max-[640px]:py-[20px] max-[640px]:gap-[40px] max-[640px]:flex-col max-[768px]:px-[40px] max-[768px]:py-[20px]">
+        <div className="w-full max-w-[1200px] py-[100px] flex flex-col items-center gap-[60px] max-[450px]:flex-col max-[450px]:px-[15px] max-[450px]:py-[20px] max-[450px]:gap-[40px] max-[640px]:px-[50px] max-[640px]:py-[20px] max-[640px]:gap-[40px] max-[640px]:flex-col max-[768px]:px-[40px] max-[768px]:py-[20px]">
           <h1 className="text-[48px] font-semibold max-[450px]:text-[30px]">
             Personal Project
           </h1>

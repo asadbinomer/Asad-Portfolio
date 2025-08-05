@@ -15,7 +15,7 @@ function Section3() {
   return (
     <>
       <div className="w-full flex items-center justify-center">
-        <div className="w-full max-w-[1100px] py-[100px] flex flex-col items-start gap-[60px] max-[450px]:flex-col max-[450px]:px-[15px] max-[450px]:py-[20px] max-[450px]:gap-[50px] max-[640px]:items-start max-[640px]:px-[50px] max-[640px]:py-[20px] max-[640px]:gap-[50px] max-[640px]:flex-col max-[768px]:px-[100px] max-[768px]:py-[20px] ">
+        <div className="w-full max-w-[1200px] py-[100px] flex flex-col items-start gap-[60px] max-[450px]:flex-col max-[450px]:px-[15px] max-[450px]:py-[20px] max-[450px]:gap-[50px] max-[640px]:items-start max-[640px]:px-[50px] max-[640px]:py-[20px] max-[640px]:gap-[50px] max-[640px]:flex-col max-[768px]:px-[100px] max-[768px]:py-[20px] ">
           <div className="flex gap-[50px] justify-between max-[450px]::flex-col max-[640px]:flex-col">
             <div className="flex flex-col gap-[36px]">
               <div className="flex items-center gap-[24px]">

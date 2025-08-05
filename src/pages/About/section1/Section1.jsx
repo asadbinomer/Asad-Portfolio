@@ -54,7 +54,7 @@ function Section1() {
   return (
     <>
       <div className="w-full flex items-center justify-center">
-        <div className="w-full max-w-[1100px] pt-[30px] pb-[60px] flex flex-col items-center gap-[60px] max-[450px]:flex-col max-[450px]:px-[15px] max-[450px]:py-[20px] max-[450px]:gap-[50px] max-[640px]:px-[50px] max-[640px]:py-[20px] max-[640px]:gap-[50px] max-[640px]:flex-col max-[768px]:px-[100px] max-[768px]:py-[20px]">
+        <div className="w-full max-w-[1200px] pt-[30px] pb-[60px] flex flex-col items-center gap-[60px] max-[450px]:flex-col max-[450px]:px-[15px] max-[450px]:py-[20px] max-[450px]:gap-[50px] max-[640px]:px-[50px] max-[640px]:py-[20px] max-[640px]:gap-[50px] max-[640px]:flex-col max-[768px]:px-[100px] max-[768px]:py-[20px]">
           <div className="w-[100%] flex items-start justify-between max-[450px]:flex-col max-[450px]:gap-[40px] max-[640px]:flex-col max-[640px]:gap-[50px]">
             <div className="flex flex-col gap-[32px]">
               <h4 className="text-[24px] font-semibold  max-[450px]:text-[19px] max-[640px]:tetx-[21px]">

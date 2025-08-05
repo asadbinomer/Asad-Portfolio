@@ -9,7 +9,7 @@ function footer() {
   return (
     <>
       <div className="w-full flex items-center justify-center bg2">
-        <div className="w-full max-w-[1100px] py-[100px] flex flex-col items-center text-center gap-[60px] max-[450px]:flex-col max-[450px]:item-center max-[450px]:px-[15px] max-[450px]:py-[20px] max-[450px]:gap-[50px] max-[640px]:items-center max-[640px]:px-[50px] max-[640px]:py-[20px] max-[640px]:gap-[50px] max-[640px]:flex-col max-[768px]:px-[100px] max-[768px]:py-[20px]">
+        <div className="w-full max-w-[1200px] py-[100px] flex flex-col items-center text-center gap-[60px] max-[450px]:flex-col max-[450px]:item-center max-[450px]:px-[15px] max-[450px]:py-[20px] max-[450px]:gap-[50px] max-[640px]:items-center max-[640px]:px-[50px] max-[640px]:py-[20px] max-[640px]:gap-[50px] max-[640px]:flex-col max-[768px]:px-[100px] max-[768px]:py-[20px]">
           <div className="flex flex-col items-center text-center gap-[24px]">
             <h1 className="text-[48px] font-semibold max-[640px]:text-[40px] max-[450px]:text-[25px]">
               Have a project idea in mind. <br /> Get in touch and let's chat!

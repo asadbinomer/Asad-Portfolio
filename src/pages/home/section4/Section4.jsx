@@ -4,7 +4,7 @@ function Section4() {
   return (
     <>
       <div className="w-full flex items-center justify-center">
-        <div className="w-full max-w-[1100px] py-[80px] flex items-center gap-[80px] justify-between max-[450px]:flex-col max-[450px]:px-[15px] max-[450px]:py-[20px] max-[450px]:gap-[50px] max-[640px]:items-start max-[640px]:px-[50px] max-[640px]:py-[20px] max-[640px]:gap-[50px] max-[640px]:flex-col max-[768px]:px-[100px] max-[768px]:py-[20px]">
+        <div className="w-full max-w-[1200px] py-[80px] flex items-center gap-[80px] justify-between max-[450px]:flex-col max-[450px]:px-[15px] max-[450px]:py-[20px] max-[450px]:gap-[50px] max-[640px]:items-start max-[640px]:px-[50px] max-[640px]:py-[20px] max-[640px]:gap-[50px] max-[640px]:flex-col max-[768px]:px-[100px] max-[768px]:py-[20px]">
           <div className="flex flex-col gap-[48px]">
             <div className="flex flex-col gap-[24px]">
               <div className="flex flex-col gap-[12px]">

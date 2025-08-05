@@ -6,7 +6,7 @@ function Section6() {
   return (
     <>
       <div className="w-full flex items-center justify-center">
-        <div className="w-full max-w-[1100px] py-[100px] flex items-center max-[450px]:items-start justify-between gap-[70px]  max-[450px]:flex-col max-[450px]:item-center max-[450px]:px-[15px] max-[450px]:py-[20px] max-[450px]:gap-[50px] max-[640px]:items-center max-[640px]:px-[50px] max-[640px]:py-[20px] max-[640px]:gap-[50px] max-[640px]:flex-col max-[768px]:px-[100px] max-[768px]:py-[20px]">
+        <div className="w-full max-w-[1200px] py-[100px] flex items-center max-[450px]:items-start justify-between gap-[70px]  max-[450px]:flex-col max-[450px]:item-center max-[450px]:px-[15px] max-[450px]:py-[20px] max-[450px]:gap-[50px] max-[640px]:items-center max-[640px]:px-[50px] max-[640px]:py-[20px] max-[640px]:gap-[50px] max-[640px]:flex-col max-[768px]:px-[100px] max-[768px]:py-[20px]">
           <div className="flex flex-col gap-[32px] max-[450px]:w-[100%]">
             <div className="w-[487px] p-[32px] flex items-center gap-[24px] bg-[#121314] rounded-[10px] border-2 border-[#222628] max-[450px]:w-[100%] max-[450px]:flex-col ">
               <img src={icon1} alt="" />
