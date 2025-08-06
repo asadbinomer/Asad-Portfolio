@@ -9,7 +9,6 @@ import Tool7 from '../../../assets/Tool7.svg'
 import Tool8 from '../../../assets/Tool8.svg'
 
 function Section2() {
-  // Original tools data array
   const tools = [
     { id: 1, icon: Tool1, name: 'Slack' },
     { id: 2, icon: Tool2, name: 'Figma' },

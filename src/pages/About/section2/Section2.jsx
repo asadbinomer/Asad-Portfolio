@@ -119,7 +119,7 @@ function Section3() {
               <div className="flex items-center gap-[24px]">
                 <div className="w-[30px] h-[2px] bg-[#FF5F49]"></div>
                 <p className="text-[18px] font-semibold text-[#FF5F49]">
-                  Tools i USE
+                Tz
                 </p>
               </div>
               <div className="flex flex-wrap gap-[20px] w-[430px] max-[450px]::w-[100%] max-[375px]:w-[100%]">

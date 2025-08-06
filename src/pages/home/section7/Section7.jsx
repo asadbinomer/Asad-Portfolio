@@ -24,8 +24,8 @@ function Section7() {
           <img src={project1} alt="" className='w-[800px] h-[400px]'/>
         </div>
         <div className="relative w-[100%] h-[100%] overflow-hidden project-cover">
-          <img src={project2} alt="" className='w-[800px] h-[400px]'/>
-          <div className="project w-[100%] h-[100%] py-[130px] px-[80px] flex flex-col items-center gap-[32px] max-[640px]:gap-[15px] justify-center z-1 bg-opacity-[.7] transition-[1s] bg-[#121314] absolute top-[100%] max-[640px]:top-[140%] left-[0px] max-[640px]:py-[20px] max-[640px]:px-[20px]">
+          <img src={project2} alt="" className='w-full h-[400px]'/>
+          <div className="project w-full h-[100%] py-[130px] px-[80px] flex flex-col items-center gap-[32px] max-[640px]:gap-[15px] justify-center z-1 bg-opacity-[.7] transition-[1s] bg-[#121314] absolute top-[100%] max-[640px]:top-[140%] left-[0px] max-[640px]:py-[20px] max-[640px]:px-[20px]">
             <div className="flex flex-col gap-[24px] items-center max-[640px]:gap-[10px]">
             <div className="flex flex-col items-center gap-[16px] max-[640px]:gap-[5px]">
               <UButton value='WEBSITE' className='w-[120px] px-[16px] py-[10px]'/>
