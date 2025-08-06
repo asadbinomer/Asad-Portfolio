@@ -17,17 +17,89 @@ function Section2() {
     { id: 5, icon: Tool5, name: 'Illustrator' },
     { id: 6, icon: Tool6, name: 'Adobe XD' },
     { id: 7, icon: Tool7, name: 'Notion' },
-    { id: 8, icon: Tool8, name: 'Webflow' }
+    { id: 8, icon: Tool8, name: 'Webflow' },
+    { id: 9, icon: Tool1, name: 'Slack' },
+    { id: 10, icon: Tool2, name: 'Figma' },
+    { id: 11, icon: Tool3, name: 'Sketch' },
+    { id: 12, icon: Tool4, name: 'Photoshop' },
+    { id: 13, icon: Tool5, name: 'Illustrator' },
+    { id: 14, icon: Tool6, name: 'Adobe XD' },
+    { id: 15, icon: Tool7, name: 'Notion' },
+    { id: 16, icon: Tool8, name: 'Webflow' },
+    { id: 1, icon: Tool1, name: 'Slack' },
+    { id: 2, icon: Tool2, name: 'Figma' },
+    { id: 3, icon: Tool3, name: 'Sketch' },
+    { id: 4, icon: Tool4, name: 'Photoshop' },
+    { id: 5, icon: Tool5, name: 'Illustrator' },
+    { id: 6, icon: Tool6, name: 'Adobe XD' },
+    { id: 7, icon: Tool7, name: 'Notion' },
+    { id: 8, icon: Tool8, name: 'Webflow' },
+    { id: 9, icon: Tool1, name: 'Slack' },
+    { id: 10, icon: Tool2, name: 'Figma' },
+    { id: 11, icon: Tool3, name: 'Sketch' },
+    { id: 12, icon: Tool4, name: 'Photoshop' },
+    { id: 13, icon: Tool5, name: 'Illustrator' },
+    { id: 14, icon: Tool6, name: 'Adobe XD' },
+    { id: 15, icon: Tool7, name: 'Notion' },
+    { id: 16, icon: Tool8, name: 'Webflow' },
+    { id: 1, icon: Tool1, name: 'Slack' },
+    { id: 2, icon: Tool2, name: 'Figma' },
+    { id: 3, icon: Tool3, name: 'Sketch' },
+    { id: 4, icon: Tool4, name: 'Photoshop' },
+    { id: 5, icon: Tool5, name: 'Illustrator' },
+    { id: 6, icon: Tool6, name: 'Adobe XD' },
+    { id: 7, icon: Tool7, name: 'Notion' },
+    { id: 8, icon: Tool8, name: 'Webflow' },
+    { id: 9, icon: Tool1, name: 'Slack' },
+    { id: 10, icon: Tool2, name: 'Figma' },
+    { id: 11, icon: Tool3, name: 'Sketch' },
+    { id: 12, icon: Tool4, name: 'Photoshop' },
+    { id: 13, icon: Tool5, name: 'Illustrator' },
+    { id: 14, icon: Tool6, name: 'Adobe XD' },
+    { id: 15, icon: Tool7, name: 'Notion' },
+    { id: 16, icon: Tool8, name: 'Webflow' },
+    { id: 1, icon: Tool1, name: 'Slack' },
+    { id: 2, icon: Tool2, name: 'Figma' },
+    { id: 3, icon: Tool3, name: 'Sketch' },
+    { id: 4, icon: Tool4, name: 'Photoshop' },
+    { id: 5, icon: Tool5, name: 'Illustrator' },
+    { id: 6, icon: Tool6, name: 'Adobe XD' },
+    { id: 7, icon: Tool7, name: 'Notion' },
+    { id: 8, icon: Tool8, name: 'Webflow' },
+    { id: 9, icon: Tool1, name: 'Slack' },
+    { id: 10, icon: Tool2, name: 'Figma' },
+    { id: 11, icon: Tool3, name: 'Sketch' },
+    { id: 12, icon: Tool4, name: 'Photoshop' },
+    { id: 13, icon: Tool5, name: 'Illustrator' },
+    { id: 14, icon: Tool6, name: 'Adobe XD' },
+    { id: 15, icon: Tool7, name: 'Notion' },
+    { id: 16, icon: Tool8, name: 'Webflow' },
+    { id: 1, icon: Tool1, name: 'Slack' },
+    { id: 2, icon: Tool2, name: 'Figma' },
+    { id: 3, icon: Tool3, name: 'Sketch' },
+    { id: 4, icon: Tool4, name: 'Photoshop' },
+    { id: 5, icon: Tool5, name: 'Illustrator' },
+    { id: 6, icon: Tool6, name: 'Adobe XD' },
+    { id: 7, icon: Tool7, name: 'Notion' },
+    { id: 8, icon: Tool8, name: 'Webflow' },
+    { id: 9, icon: Tool1, name: 'Slack' },
+    { id: 10, icon: Tool2, name: 'Figma' },
+    { id: 11, icon: Tool3, name: 'Sketch' },
+    { id: 12, icon: Tool4, name: 'Photoshop' },
+    { id: 13, icon: Tool5, name: 'Illustrator' },
+    { id: 14, icon: Tool6, name: 'Adobe XD' },
+    { id: 15, icon: Tool7, name: 'Notion' },
+    { id: 16, icon: Tool8, name: 'Webflow' },
   ];
 
   const duplicateToolsArray = tools.map((tool) => ({
     ...tool,
-    id: tool.id + 16
+    id: tool.id + 64
   }));
 
   const allTools = [...tools, ...duplicateToolsArray];
 
-    const workingSteps = [
+  const workingSteps = [
     { id: 1, emoji: '🤝', title: '1. Project Introduction' },
     { id: 2, emoji: '🖌️', title: '2. Visual Design' },
     { id: 3, emoji: '💻️', title: '3. Webflow Development' },
@@ -41,7 +113,7 @@ function Section2() {
           <div className="flex items-center gap-[24px] text-center mx-auto">
             <p className='text-[18px] font-semibold text-center'>Tools i USE</p>
           </div>
-          <div className="flex flex-wrap gap-[10px] max-[450px]::w-[100%] max-[375px]:w-[100%] animate1 justify-center">
+          <div className="flex gap-[10px] max-[450px]::w-[100%] max-[375px]:w-[100%] animate1 justify-center">
             {allTools.map((tool) => (
               <div 
                 key={tool.id}
@@ -54,7 +126,7 @@ function Section2() {
           </div>
         </div>
         
-        <div className="flex text-left py-[100px] items-center gap-[80px] justify-between max-[450px]:text-center  max-[450px]:flex-col max-[450px]:item-center max-[450px]:py-[20px] max-[450px]:gap-[50px] max-[640px]:items-center max-[640px]:py-[20px] max-[640px]:gap-[50px] max-[640px]:flex-col max-[768px]:py-[20px]">
+        <div className="flex text-left py-[100px] items-center gap-[80px] justify-between max-[450px]:text-center max-[450px]:flex-col max-[450px]:item-center max-[450px]:py-[20px] max-[450px]:gap-[50px] max-[640px]:items-center max-[640px]:py-[20px] max-[640px]:gap-[50px] max-[640px]:flex-col max-[768px]:py-[20px]">
           <div className="flex flex-col gap-[20px]">
             <h1 className='text-[40px] font-semibold'>Working process</h1>
             <p className='text-[17px] font-medium text-[#5E6971]'>I specialize in UI/UX & Graphic Design and my passion is all about building elegant and professional user interfaces.</p>
@@ -72,7 +144,7 @@ function Section2() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Section2
+export default Section2;

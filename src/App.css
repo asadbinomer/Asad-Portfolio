@@ -103,7 +103,7 @@ body{
 }
 
 .animate1{
-  animation: animate 20s linear infinite;
+  animation: animate 200s linear infinite;
 }
 
 @keyframes animate {
